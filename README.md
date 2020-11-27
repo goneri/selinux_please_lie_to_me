@@ -17,3 +17,7 @@ face this error:
     $ pip install selinux_please_lie_to_me
     $ python3 -c 'import selinux; print(f"SELinux is enabled: {selinux.is_selinux_enabled()}, (which is probably a lie 🤫)")'
     SELinux is enabled: False, (which is probably a lie 🤫)
+
+## Update
+
+Well, you may want to use the `selinux` package instead (https://pypi.org/project/selinux/) which do the same thing...
